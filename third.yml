@@ -1,1 +1,7 @@
-Third Playbook  
+---
+- name: Second Playbook
+  hosts: all
+  tasks:
+  - name: Second Task
+    shell: echo 'Second Yml file'
+...
