@@ -1,9 +1,0 @@
----
-- name: test playbook
-  hosts: all
-  tasks: 
-    - name: install package
-      yum
-        name: rpm
-        state: present
-        
