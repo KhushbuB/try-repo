@@ -1,0 +1,10 @@
+---
+- name: Install
+  hosts: localhost
+  tasks:
+  - name: Install httpd Package.
+    yum:
+      name: httpd
+      state: present
+...
+

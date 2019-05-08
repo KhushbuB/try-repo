@@ -1,0 +1,6 @@
+---
+- name: Create file
+  hosts: localhost
+  tasks:
+    - command : touch /root/try.txt
+...
