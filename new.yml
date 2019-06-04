@@ -1,0 +1,7 @@
+---
+- name: try playbook
+  hosts: all
+  tasks:
+  - name: try task
+    shell: echo 'try'
+...
